@@ -10,6 +10,10 @@ public class count{
 	{
 		System.out.println("string original: "+ arv);
 	}
+	public void countLength()
+	{
+		System.out.println("string length: "+ arv.length());
+	}
 	public void countWords()
 	{
 	   int wordCount = 0;
@@ -46,6 +50,7 @@ public static void main(String[] args) {
    int maara=0;
    count kaksi=new count("laske sanojen maara tassa lauseessa");
    kaksi.print(); //print original sentence
+   kaksi.countLength();
    kaksi.countWords();
    kaksi.reverse();
    }
